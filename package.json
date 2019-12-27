@@ -1,0 +1,19 @@
+{
+  "name": "amoozyar",
+  "version": "1.0.0",
+  "description": "chat app for advise",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "nodemon": "latest",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
